@@ -17,11 +17,11 @@ const NewtonRaphsonAPI = require("./api/NewtonRaphsonAPI");
 const CramerAPI = require("./api/CramerAPI");
 const GaussElimAPI = require("./api/GaussElimAPI");
 const GaussJordanAPI = require("./api/GaussJordanAPI");
-const ConjugateGradientAPI = require("./api/ConjugateGradientAPI");
 const CholeskyAPI = require("./api/CholeskyAPI");
 const LUDecomposeAPI = require("./api/LUDecomposeAPI");
 const GaussSeidelAPI = require("./api/GaussSeidelAPI");
 const JacobiAPI = require("./api/JacobiAPI");
+const NewtonInterpolationAPI = require("./api/NewtonInterpolation");
 app.use("/", BisectionAPI);
 app.use("/", FalsePosAPI);
 app.use("/", OnePointAPI);
@@ -30,11 +30,11 @@ app.use("/", NewtonRaphsonAPI);
 app.use("/", CramerAPI);
 app.use("/", GaussElimAPI);
 app.use("/", GaussJordanAPI);
-app.use("/", ConjugateGradientAPI);
 app.use("/", CholeskyAPI);
 app.use("/", LUDecomposeAPI);
 app.use("/", GaussSeidelAPI);
 app.use("/", JacobiAPI);
+app.use("/", NewtonInterpolationAPI);
 
 
 
