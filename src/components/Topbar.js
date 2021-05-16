@@ -28,7 +28,7 @@ const Topbar = () => {
         <Dropdown isOpen = { dropdownOpen }toggle = { RootOfEquationToggle } >
         <DropdownToggle color = "secondary" caret >Root of Equation </DropdownToggle>
         <DropdownMenu>
-        <DropdownItem header > Methods </DropdownItem>
+        <DropdownItem header > Select Topic </DropdownItem>
         <DropdownItem href = "/Bisection" > Bisection Method </DropdownItem> 
         <DropdownItem href = "/FalsePos" > False Position </DropdownItem>
         <DropdownItem href = "/OnePoint" > One - Point Iteration </DropdownItem> 
@@ -40,7 +40,7 @@ const Topbar = () => {
         <Dropdown isOpen = { LinearMenu }toggle = { LinearMenuToggle } >
         <DropdownToggle color = "secondary"caret>Linear Algebra </DropdownToggle> 
         <DropdownMenu>
-        <DropdownItem header > Methods </DropdownItem> 
+        <DropdownItem header > Select Topic </DropdownItem> 
         <DropdownItem href = "/CramersRule" > Cramer 's Rule</DropdownItem> 
         <DropdownItem href = "/GaussElimination" >Gauss Elimination </DropdownItem> 
         <DropdownItem href = "/GaussJordan" >Gauss - Jordan Elimination  </DropdownItem>
@@ -54,7 +54,7 @@ const Topbar = () => {
         <Dropdown isOpen = { InterpolationMenu }toggle = { InterpolationMenuToggle } >
         <DropdownToggle color = "secondary"caret>Interpolation </DropdownToggle> 
         <DropdownMenu>
-        <DropdownItem header > Methods </DropdownItem> 
+        <DropdownItem header > Select Topic </DropdownItem> 
         <DropdownItem href = "/Newton-Divided-Difference" > NewtonInterpolationMenu</DropdownItem> 
         </DropdownMenu> 
         </Dropdown>
